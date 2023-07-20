@@ -1,0 +1,96 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    background: darkgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+canvas {
+    border: 2px solid black;
+    background: green;
+    border-radius: 10px;
+
+}
+.difficult-head{
+    display: flex;
+    height: 50px;
+    width: 159px;
+    background: black;
+    z-index:1;
+    border-radius: 10px;
+}
+.difficult{
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+
+}
+.easy,.normal,.hard{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background: yellow;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.button-easy, .button-normal, .button-hard{
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 30px;
+    font-size: 8px;
+    align-items: center;
+
+}
+.difficult-button{
+    display: block;
+    height: 50px;
+    width: 159px;
+    margin:0 auto;
+
+}
+.button-reload{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+
+}
+
+.button-start{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0 auto;
+    transform: translate(-50%,-50%);
+}
+.Result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 10px;
+}
+.Result-chet{
+    display: flex;
+    width: 70px;
+    background: white;
+    justify-content: center;
+    border-radius: 0 10px 0 0;
+}
+.check{
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    background: brown;
+    border-radius: 10px 0 0;
+}
+.Result-chet-check{
+
+}

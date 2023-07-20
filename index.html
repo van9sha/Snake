@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Змейка</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+
+<div class="flex-container">
+
+
+
+
+    <div class="Game">
+
+        <div class="Result">
+            <div class="check">
+                <p class="Result-check">Счет</p>
+            </div>
+            <div class =Result-chet>
+                <p class="Result-chet-check" id="Result-chet-check">
+                    0
+                </p>
+
+            </div>
+
+            <div class="difficult-head" id="difficult-head">
+            <div class="difficult" id="difficult">
+                <div class="easy" id="easy">
+                    <button class='button-easy' name="button-easy" onclick="EasyStart()">Легко</button>
+                </div>
+                <div class="normal" id="normal">
+                    <button class='button-normal' name="button-normal" onclick="MediumStart()">Нормально</button>
+                </div>
+                <div class="hard" id="hard">
+                    <button class='button-hard' name="button-hard" onclick="HardStart()">Тяжело</button>
+                </div>
+            </div>
+            <div class="difficult-button">
+                <div class="button-reload">
+                    <button class='button' name='button' onclick="Reload()">Сброс</button>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="start">
+            <button class='button-start' id="btn_start" name='button' onclick="Btn_start_click()">Начать!</button>
+        </div>
+
+        <canvas id="game" width="400" height="400"></canvas>
+    </div>
+</div>
+
+
+<script src="script.js">
+</script>
+
+</body>
+</html>
